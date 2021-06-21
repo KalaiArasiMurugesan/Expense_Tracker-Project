@@ -1,0 +1,10 @@
+'''    try:
+        print(Amount.get())
+        if (Category.get() == "Select category"):
+            raise ValueError("Please select category")
+        if (Amount.get() <= 0):
+            raise ValueError("Please enter an valid amount")
+    except ValueError as ve:
+        tkinter.messagebox.showinfo("Info", ve.args)
+    except Exception as e:
+        tkinter.messagebox.showinfo("Info", "Please enter the Amount")'''
